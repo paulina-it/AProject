@@ -1,0 +1,43 @@
+#search-head {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#message {
+    text-align: center;
+}
+
+#search-head {
+    display: flex;
+    flex-direction: row;
+}
+
+#dates {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#edit-img {
+    width: 1em;
+    opacity: 50%;
+    margin-left: 1em; 
+    :hover {
+        opacity: 70%;
+    }
+}
+
+h3 {
+    padding-top: 0.35em;
+}
+
+a {
+    color: black;
+}

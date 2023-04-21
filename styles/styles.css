@@ -1,0 +1,118 @@
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+header h1 {
+  margin-left: 1em;
+}
+header p {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+h2 {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+#projects-div {
+  width: 60%;
+  margin-top: 1em;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#projects-div .card {
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+#search-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#search-switch {
+  align-self: center;
+}
+
+#search-switch:hover {
+  color: #299fff;
+  /* font-weight: bold; */
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  margin: auto;
+  /* padding-left: 3em; */
+}
+
+h3 {
+  padding-top: 0.35em;
+}
+
+a {
+  color: black;
+}
+a :hover {
+  text-decoration: none;
+}
+
+#search-head {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#message {
+  text-align: center;
+}
+
+#search-head {
+  display: flex;
+  flex-direction: row;
+}
+
+#dates {
+  display: flex;
+  flex-direction: row;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#edit-img {
+  width: 1em;
+  opacity: 50%;
+  margin-left: 1em;
+}
+#edit-img :hover {
+  opacity: 70%;
+}
+
+h3 {
+  padding-top: 0.35em;
+}
+
+a {
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
