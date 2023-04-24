@@ -254,15 +254,6 @@
                     </form>
                     `;
         }
-
-        function deleteProject() {
-            if (confirm('Are you sure you want to delete this project?') == true) {
-                x = 1;
-            } else {
-                x = 0;
-            }
-            $("#answer").load("personal.php?answer=" + x);
-        }
     </script>
     <script src="
     https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="

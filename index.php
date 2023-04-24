@@ -63,7 +63,7 @@
                     if (!empty($search)) {
                         if (!validateDate($search)) {
                             // echo 'not date';
-                            if (!strcmp(strtolower($row['title']), $search)) {
+                            if (strpos(strtolower($row['title']), strtolower($search)) !== false) {
                                 $found = true;
                                 $email = userQuery($row, $db);
                                 printCards($row, $email);
